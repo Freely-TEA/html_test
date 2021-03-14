@@ -1,0 +1,516 @@
+/* globals */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.container_footer{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer {
+    background: #316099;
+}
+
+.interest {
+
+    position: relative;
+}
+
+.interest h4 {
+    padding-top: 91px;
+    width: 340.96px;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.interest p {
+    width: 490px;
+    padding-top: 32px;
+    font-size: 16px;
+    line-height: 26px;  
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.lets_talk_button {
+    position: absolute;
+    width: max-content;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 15px 80px;
+    text-decoration: none;
+    top: 180px;
+    right: 0px;
+}
+
+.end_line {
+    margin-top: 96px;
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
+
+.last_list {
+    margin-top: 64px;
+    list-style:decimal;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.last_string {
+    margin-left: 20px;
+}
+
+.rights {
+    margin-top: 64px;
+    padding-bottom: 64px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+/* index.html*/
+
+.header { 
+    display: flex;
+    justify-content: space-between;
+    padding-top: 34px;
+    height: 48px;
+}
+
+.site_start {
+    background-image: url(img/illustration.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.site_info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top {
+
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.top h1 {
+    padding-top: 107px;
+    width: 504px;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    color: #1F3F68;
+    letter-spacing: 0.04em;
+}
+
+.top p{
+    width: 425px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+    color: #1F3F68;
+    font-family: Roboto;
+}
+
+.button_see {
+    width: max-content;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 15px 50px;
+    text-decoration: none;
+    margin-top: 71px;
+    margin-bottom: 190px;
+}
+
+.what_we_do h3 {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.card_list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 360px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    margin-top: 32px;
+    padding-bottom: 44px;
+}
+
+.card_info {
+    margin-top: 43px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.card_info h4 {
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: 54px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+
+.card_info p {
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-bottom: 27px;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+.card_link {
+    display: flex;
+    align-items: center;
+}
+
+.card_link a {
+    padding-left: 32px;
+    text-decoration: none;
+    margin-right: 24px;
+}
+
+.ofp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 63px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.ofp h3 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    color: #000000;
+}
+
+.ofp p {
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #222222;
+    margin-bottom: 64px;
+}
+
+.project_tab {
+    padding-bottom: 64px;
+}
+
+.project_tab h4{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.project_main {
+    position: relative;
+}
+
+.project_main img {
+    width: 100%;
+}
+
+.project_main h4 {
+    top: 64px;
+    right: 64px;
+}
+
+.project_mini {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.project_common {
+    margin-top: 32px;
+    position: relative;
+    flex-grow: 1;
+}
+
+.f_block {
+    margin-right: 32px;
+}
+
+.project_common h4 {
+    font-size: 28px;
+    top: 32px;
+    left: 32px;
+}
+
+.project_common img {
+    width: 100%;
+}
+
+/* media zone*/
+@media (max-width: 1024px) {
+    .container {
+        max-width: 1024px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .top {
+        padding-top: 36px;
+    }
+
+    .site_start {
+        background-size: 50%;
+    }
+
+    .card_list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ofp {
+        margin-top: 127px;
+    }
+
+    .project_common {
+        margin-top: 32px;
+    }
+
+    .project_common h4 {
+        top: 20px;
+        left: 20px;
+    }
+
+    .container_footer {
+        padding-left: 124px;
+        padding-right: 124px;
+    }
+
+    .interest h4 {
+        padding-top: 47px;
+    }
+
+    .interest p {
+        width: 336px;
+    }
+
+    .lets_talk_button {
+        width: 133px;
+        padding: 10px;
+    }
+
+    .end_line {
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    .last_list {
+        display: inline;
+    }
+
+    .last_string {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 812px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 812px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .top {
+        padding-top: 21px;
+    }
+
+    .top h1 {
+        padding-top: 33px;
+        width: 100%;
+        text-align: center;
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .top p {
+        width: 100%;
+        padding-top: 12px;
+        text-align: center;
+    }
+
+    .button_see {
+        margin-top: 32px;
+        align-self: center;
+        margin-bottom: 41px;
+        font-size: 12px;
+    }
+
+    .site_start {
+        background-image: none;
+    }
+
+    .what_we_do h3 {
+        margin-top: 48px;
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 336px;
+    }
+    .ofp {
+        margin-top: 64px;
+    }
+
+    .ofp h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .project_mini {
+        flex-wrap: wrap;
+    }
+    
+    .f_block {
+        margin-right: 0px;
+    }
+
+    .container_footer {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .interest {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .interest h4 {
+        width: 100%;
+        padding-top: 18px;
+        align-self: center;
+        text-align: center;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: unset;
+    }
+
+    .interest p {
+        width: 100%;
+        align-self: center;
+        text-align: center;
+        padding-bottom: 48px;
+
+    }
+
+    .lets_talk_button {
+        position: relative;
+        top:unset;
+        right: unset;
+
+        align-self: center;
+    }
+
+    .end_line {
+        margin-top: 40px;
+        margin-bottom: 32px;
+    }
+    
+    .last_list {
+        padding-left: 17px;
+        line-height: 19px;
+    }
+    
+    .rights{
+        text-align: center;
+    }
+
+
+}
+/* END INDEX */
+
+
+
+
+
+.contact_us {
+    text-align: center;
+}
+
+.contact_group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button_contacts {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
